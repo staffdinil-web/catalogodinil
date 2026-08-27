@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo digital de produtos Moura">
+  <title>Catálogo Moura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Catálogo Moura, início">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span id="brandName">moura</span>
+    </a>
+    <a class="header-link" href="#catalogo">Ver catálogo</a>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow" id="eyebrow">Catálogo de produtos</p>
+        <h1 id="heroTitle">Energia para<br><em>cada caminho.</em></h1>
+        <p class="hero-description" id="heroDescription"></p>
+        <a class="primary-action" href="#catalogo">Explorar produtos <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-sheet hero-sheet-back"><img id="heroBack" alt=""></div>
+        <div class="hero-sheet hero-sheet-front"><img id="heroFront" alt=""></div>
+        <span class="hero-orbit"></span>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="catalogo">
+      <div class="section-heading">
+        <div><p class="eyebrow">Edição completa</p><h2>Encontre o produto certo.</h2></div>
+        <p>Abra cada página em tela cheia para consultar modelos, pesos e categorias.</p>
+      </div>
+      <div class="catalog-grid" id="catalogGrid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Catálogo Moura</span></div>
+    <p id="footerText"></p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <button class="lightbox-backdrop" type="button" data-close aria-label="Fechar catálogo"></button>
+    <div class="lightbox-panel">
+      <div class="lightbox-toolbar">
+        <div><span id="modalNumber"></span><strong id="modalTitle"></strong></div>
+        <div class="toolbar-actions">
+          <a id="modalDownload" download aria-label="Baixar esta página">↓</a>
+          <button type="button" data-close aria-label="Fechar">×</button>
+        </div>
+      </div>
+      <div class="lightbox-image-wrap"><img id="modalImage" alt=""></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "marca": "moura",
+  "titulo": "Energia para cada caminho.",
+  "descricao": "Consulte nossa linha completa de baterias e lubrificantes em duas páginas. Toque em qualquer catálogo para ampliar todos os detalhes.",
+  "chamada": "Catálogo de produtos",
+  "rodape": "Produtos para automóveis, motos, embarcações e sistemas de energia.",
+  "paginas": [
+    {
+      "numero": "01",
+      "imagem": "catalogo/catalogo-moura-1.png",
+      "titulo": "Automotivo & Ciclomotivo",
+      "descricao": "Moura Leve, AGM, EFB, Pesada, Zetta e linha ciclomotiva."
+    },
+    {
+      "numero": "02",
+      "imagem": "catalogo/catalogo-moura-2.png",
+      "titulo": "Energia & Lubrificantes",
+      "descricao": "Nobreaks, náutica, tração monobloco e lubrificantes Lubel."
+    }
+  ]
+}

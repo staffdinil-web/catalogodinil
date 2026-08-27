@@ -7,13 +7,13 @@
   "paginas": [
     {
       "numero": "01",
-      "imagem": "catalogo/catalogo-moura-1.png",
+      "imagem": "catalogo/slide1.png",
       "titulo": "Automotivo & Ciclomotivo",
       "descricao": "Moura Leve, AGM, EFB, Pesada, Zetta e linha ciclomotiva."
     },
     {
       "numero": "02",
-      "imagem": "catalogo/catalogo-moura-2.png",
+      "imagem": "catalogo/slide2.png",
       "titulo": "Baterias Especiais & Lubrificantes",
       "descricao": "Nobreaks, Náutica, Tração Monobloco e Lubrificantes Lubel."
     }
